@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv:*)",
+      "Bash(make:*)",
+      "Bash(make install:*)",
+      "Bash(uv venv:*)",
+      "Bash(uv run:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv pip install:*)",
+      "Bash(timeout 120 uv run:*)",
+      "Bash(python:*)",
+      "Bash(.venvScriptspython.exe -c \"import torch; print(''torch is available'')\")",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(timeout 180 .venv/Scripts/python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
